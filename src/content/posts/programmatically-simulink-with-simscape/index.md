@@ -1,14 +1,10 @@
 ---
 title: 对含有 Simscape 的 Simulink 模型中进行程序控制
-date: 2023-10-15 18:15:28 +08:00
-categories:
-- Summary
-tags: 
-- Matlab
-- Simulink
-- Simscape
-- Modelling
-- Code
+published: 2023-10-15 18:15:28 +08:00
+description: 使用 Matlab 程序对 Simulink 模型进行操作
+categories: Summary
+tags: [Matlab, Simulink, Simscape, Modelling, Code]
+draft: false
 ---
 
 > 本文基于 Matlab 2023b，Simulink 10.4，Simscape 5.3 编写。

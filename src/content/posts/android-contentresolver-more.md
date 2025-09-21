@@ -1,12 +1,11 @@
 ﻿---
 title: Android ContentProvider 使用小计
-date: 2020-03-14 19:34:50 +08:00
-categories:
-  - Tip
-tags:
-  - Android
-  - Code
-img: "./images/bg-test.jpg"
+published: 2020-03-14 19:34:50 +08:00
+description: ''
+image: ./cover.jpg
+tags: [Android, Code]
+category: Tip
+draft: false
 ---
 
 Android 应用在选取文件时推荐使用 `Intent.ACTION_GET_CONTENT` 意图，而不是使用应用自己创建的文件选择器并获取读取文件权限。

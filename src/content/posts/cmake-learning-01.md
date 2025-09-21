@@ -1,11 +1,11 @@
 ---
 title: CMake 学习小结
-date: 2020-07-12 17:47:28 +08:00
-categories:
-- Summary
-tags: 
-- C/C++
-- Code
+published: 2020-07-12 17:47:28 +08:00
+category: Summary
+tags: [C/C++, Code]
+description: ''
+image: ./cover.jpg
+draft: false
 ---
 
 高考完这段时间点子大概比较多？既然学了两年的信息学奥赛写了两年 C++ ，却根本不会用 C++ 去做开发，这次正好想做的一个东西对性能要求比较高，就考虑用 C++ 来做，又因为原来一直用的 Java 导致我比较关注多平台的兼容，就想趁机学习一下 CMake 这类通用构建工具。这篇文章会列举一下我学到的 CMake 常用的命令，做一个小结。

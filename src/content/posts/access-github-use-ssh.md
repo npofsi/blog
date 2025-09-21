@@ -1,12 +1,12 @@
 ﻿---
 title: 使用 ssh 访问 Github （从创建密钥到 clone 仓库）
-date: 2023-05-22 10:12:28 +08:00
-categories:
-- Tip
-tags: 
-- git
-- Github
-- ssh
+published: 2023-05-22 10:12:28 +08:00
+category: Tip
+tags: [git, Github, ssh]
+description: ''
+image: ./cover.jpg
+draft: false
+# lang: jp      # 仅当文章语言与 `config.ts` 中的网站语言不同时需要设置
 ---
 
 

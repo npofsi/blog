@@ -1,13 +1,11 @@
 ﻿---
 title: C++ 将数字转换成字符串
-date: 2018-09-9 15:23:21 +08:00
-categories:
-- Tip
-tags:
-- C++
-- NOIp
-- 随笔
-- Code
+published: 2018-09-9 15:23:21 +08:00
+category: Tip
+tags: [C++, NOIp, 随笔, Code]
+description: ''
+image: ./cover.jpg
+draft: false
 ---
 
 

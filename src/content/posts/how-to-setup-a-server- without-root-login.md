@@ -1,12 +1,12 @@
 ---
 title: 不使用 root 账户登陆服务器
-date: 2022-06-25 9:26:02 +08:00
-categories:
-- Note
-tags: 
-- Server
-- Maintenance
-- SSH
+published: 2022-06-25 9:26:02 +08:00
+category: Note
+tags: [Server, Maintenance, SSH]
+description: ''
+image: ./cover.jpg
+draft: false
+# lang: jp      # 仅当文章语言与 `config.ts` 中的网站语言不同时需要设置
 ---
 
 之前服务器的时候遇到疑似 root 被爆破的情况，所幸最后查明是服务商流量计费出错了，而且使用 root 登陆服务器权限过大太过危险，容易发生 `rm -rf` 这种事故，所以这次建服的时候就考虑了一下这些事情，而且操作起来并不是很麻烦。
