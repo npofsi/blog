@@ -6,6 +6,46 @@ import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
 
+
+const friends = [
+  {
+    name: "Canary pwn",
+    link: "https://aaaab3n.moe/",
+    avatar:
+      "https://who.aaaab3n.moe/assets/canarypwn@1x.00a95518.webp",
+  },
+  {
+    name: "Crpr",
+    link: "http://wgqcreeper.xyz/",
+    avatar: "https://raw.gitmirror.com/wgqcreeper/blogPics/main/202402271026809.png",
+    description: "Life Is Beautiful",
+  },
+  {
+    name: "Hiiragi",
+    link: "https://blog.hiirachan.moe/",
+    avatar: "https://avatars.githubusercontent.com/u/42064430?v=4",
+    description: "It's Okay Not to Be Okay",
+  },
+  {
+    name: "Jimmy Tian",
+    link: "https://www.twznow.com/",
+    avatar: "https://2f07.misaka.pet/assets/images/jimmytian@1x.png",
+  },
+  {
+    name: "Lakphy",
+    link: "https://lakphy.github.io/",
+    avatar: "https://avatars.githubusercontent.com/u/34190570?v=4",
+    description: "广告位招租",
+  },
+  {
+    name: "Sotr",
+    link: "https://kira.moe/",
+    avatar: "https://avatars.githubusercontent.com/u/39127005?v=4",
+    description: "奇迹和魔法都是存在的！可爱即正义！",
+  },
+  
+];
+
 const aboutPost = await getEntry("spec", "about");
 
 if (!aboutPost) {
@@ -21,5 +61,30 @@ const { Content } = await render(aboutPost);
                 <Content />
             </Markdown>
         </div>
+
+    </div>
+    <!-- 友情链接卡片 -->
+    <div class="flex w-full mt-5">
+      <div class="card-base z-10 px-9 py-6 relative w-full">
+        <h2 class="text-2xl font-bold mb-4">Friends</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {friends.map(friend => (
+            <a
+              href={friend.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link flex gap-4 px-6 py-10 transition-shadow hover:shadow-lg group items-center"
+            >
+              <img src={friend.avatar} alt={friend.name} class="w-14 h-14 rounded-full object-cover border border-[var(--card-bg)] shadow-sm group-hover:border-[var(--primary)] transition" loading="lazy" />
+              <div class="flex-1 min-w-0">
+                <div class="font-medium text-lg text-90 group-hover:text-[var(--primary)] transition-colors truncate">{friend.name}</div>
+                {friend.description && (
+                  <div class="text-sm text-50 mt-1 truncate">「{friend.description}」</div>
+                )}
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
     </div>
 </MainGridLayout>
