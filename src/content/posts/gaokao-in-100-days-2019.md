@@ -1,12 +1,9 @@
 ﻿---
 title: 距高考那 一百天
 published: 2020-2-26 11:31:56 +08:00
-category: Review
+category: Routine
 tags: [高考, 目标]
-description: ''
-image: ./cover.jpg
 draft: false
-# lang: jp      # 仅当文章语言与 `config.ts` 中的网站语言不同时需要设置
 ---
 
 距离高考还有一百天了，有点不舍，两年半来的生活好像箭一般的飞过，只不过是三个月，就算对不起什么，也不能让高中的时光过得没有任何意义。~~一个月前还在推 gal 的人不要说话~~

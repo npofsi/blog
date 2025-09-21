@@ -1,8 +1,6 @@
 ﻿---
 title: Android ContentProvider 使用小计
 published: 2020-03-14 19:34:50 +08:00
-description: ''
-image: ./cover.jpg
 tags: [Android, Code]
 category: Tip
 draft: false

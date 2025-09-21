@@ -4,7 +4,6 @@ published: 2018-05-17 12:57:28 +08:00
 description: 使用 OUI 查询 MAC 地址
 category: Tip
 tags: [Network, Code, Standard]
-image: ./cover.jpg
 draft: false
 ---
 

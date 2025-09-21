@@ -1,10 +1,8 @@
 ﻿---
 title: 《千恋 * 万花》
 published: 2020-1-29 21:22:07 +08:00
-category: Review
+category: Routine
 tags: [Game, Stuff]
-description: ''
-image: ./cover.jpg
 draft: false
 ---
 
