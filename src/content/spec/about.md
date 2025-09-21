@@ -1,9 +1,14 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+# Yahello!
 
-::github{repo="saicaca/fuwari"}
+I'm npofsi /pos/.
 
-> ### Sources of images used in this site
+Love CoCo!
+
+Trying to be an electronics engineer.
+
+::github{repo="npofsi/blog"}
+
+<!-- > ### Sources of images used in this site
 > - [Unsplash](https://unsplash.com/)
 > - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty) -->
