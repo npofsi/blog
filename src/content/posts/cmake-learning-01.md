@@ -3,7 +3,6 @@ title: CMake 学习小结
 published: 2020-07-12 17:47:28 +08:00
 category: Summary
 tags: [C/C++, Code]
-image: ./cover.jpg
 draft: false
 ---
 
