@@ -74,6 +74,23 @@ HOST github.com
  ForwardAgent yes
 ```
 
+*PS:*
+
+如果直接通过 ssh 访问 github 有问题，可以通过下面的配置使用 443 端口进行访问：
+
+```
+Host gitee.com
+	HostName ssh.gitee.com
+	Port 443
+	User git
+	ForwardAgent yes
+Host github.com
+	HostName ssh.github.com
+	Port 443
+	User git
+	ForwardAgent yes
+```
+
 ## 测试
 
 现在已经配置好了 ssh 可以用以下命令进行测试：
