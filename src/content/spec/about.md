@@ -6,7 +6,7 @@
 
 正在 BJTU 读电气工程博士
 
-之前想要成为一个从底层到云的全栈，现在成了到处都沾一点的咸鱼xD
+从到处都沾一点的咸鱼变成了领域外废柴xD
 
 头像是 Comic Girls 里的萌田薰子！已经在 *Manga Time Kirara* University 学习数年
 
