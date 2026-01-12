@@ -1,7 +1,6 @@
 ---
 title: 软件架构设计：导引与经典三层架构
 published: 2023-10-15 18:15:28 +08:00
-description: 
 categories: Summary
 tags: [Software, Architecture, Code]
 draft: true
