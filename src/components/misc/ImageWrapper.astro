@@ -5,15 +5,25 @@ interface Props {
 	id?: string;
 	src: string;
 	class?: string;
+	imageClass?: string;
 	alt?: string;
 	position?: string;
+	imageStyle?: string;
 	basePath?: string;
 }
 
 import { Image } from "astro:assets";
 import { url } from "../../utils/url-utils";
 
-const { id, src, alt, position = "center", basePath = "/" } = Astro.props;
+const {
+	id,
+	src,
+	alt,
+	position = "center",
+	basePath = "/",
+	imageClass: imageClassProp,
+	imageStyle: imageStyleProp,
+} = Astro.props;
 const className = Astro.props.class;
 
 const isLocal = !(
@@ -44,8 +54,15 @@ if (isLocal) {
 	img = await file();
 }
 
-const imageClass = "w-full h-full object-cover";
-const imageStyle = `object-position: ${position}`;
+const imageClass = ["w-full h-full object-cover", imageClassProp]
+	.filter(Boolean)
+	.join(" ");
+const imageStyle = [
+	`object-position: ${position}`,
+	imageStyleProp,
+]
+	.filter(Boolean)
+	.join(" ");
 ---
 <div id={id} class:list={[className, 'overflow-hidden relative']}>
     <div class="transition absolute inset-0 dark:bg-black/10 bg-opacity-50 pointer-events-none"></div>
